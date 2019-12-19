@@ -1,0 +1,44 @@
+
+body,
+body * {
+    margin:0;
+    padding:0;
+    vertical-align: top;    
+    box-sizing: border-box;
+    font-family: raleway, sans-serif;
+}
+body{
+   display: inline-block;
+   text-align: center;
+}
+
+#saskes{
+    display: inline-block;
+    min-width:100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.row{
+    display: inline-block;
+    min-width:100%;
+}
+
+.langelisW{
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
+
+.langelisB{
+    display: inline-block;
+    background-color: black;
+    background-color: black;
+    height: 20px;
+    width: 20px;
+}
